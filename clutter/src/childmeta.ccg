@@ -17,6 +17,7 @@
 
 #include <clutter/clutter.h>
 #include <cluttermm/container.h>
+#include <cluttermm/actor.h>
 
 namespace Clutter
 {

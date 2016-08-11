@@ -16,6 +16,7 @@
  */
 
 #include <clutter/clutter.h>
+#include <cluttermm/actor.h>
 
 _DEPRECATE_IFDEF_START
 namespace

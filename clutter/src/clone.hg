@@ -25,11 +25,9 @@ namespace Clutter
 {
 
 class Clone :
-  public Actor,
-  public Container
+  public Actor
 {
   _CLASS_GOBJECT(Clone, ClutterClone, CLUTTER_CLONE, Actor, ClutterActor)
-  _IMPLEMENTS_INTERFACE(Container)
   //TODO: _IMPLEMENTS_INTERFACE(Atk::Implementor)
 protected:
   _WRAP_CTOR(Clone(const Glib::RefPtr<Actor>& source), clutter_clone_new)

@@ -33,11 +33,9 @@ namespace Clutter
  * @deprecated Use Actor instead.
  */
 class Group :
-    public Actor,
-    public Container
-{
+    public Actor{
   _CLASS_GOBJECT(Group, ClutterGroup, CLUTTER_GROUP, Actor, ClutterActor)
-  _IMPLEMENTS_INTERFACE(Container)
+  //_IMPLEMENTS_INTERFACE(Container)
   //We don't want this in ifdef because Stage still derives from Group: _IS_DEPRECATED
   //TODO: Remove Group from Stage's heirarchy when clutter does that, when it breaks ABI.
 

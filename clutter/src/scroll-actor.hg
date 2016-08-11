@@ -28,11 +28,11 @@ namespace Clutter
 _WRAP_ENUM(ScrollMode, ClutterScrollMode)
 
 class ScrollActor :
-  public Actor,
-  public Container
+  public Actor
+  //public Container
 {
   _CLASS_GOBJECT(ScrollActor, ClutterScrollActor, CLUTTER_SCROLL_ACTOR, Actor, ClutterActor)
-  _IMPLEMENTS_INTERFACE(Container)
+  //_IMPLEMENTS_INTERFACE(Container)
   //TODO: _IMPLEMENTS_INTERFACE(Atk::Implementor)
 
 protected:

@@ -15,13 +15,15 @@
  * Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <cluttermm/actor.h>
+//#include <cluttermm/actor.h>
+#include <clutter/clutter.h>
 #include <cluttermm/childmeta.h>
 #include <glibmm/interface.h>
 #include <glibmm/ustring.h>
 
 _DEFS(cluttermm,clutter)
 _PINCLUDE(glibmm/private/interface_p.h)
+_PINCLUDE(cluttermm/private/container_p.h)
 
 #m4 _PUSH(SECTION_CC_PRE_INCLUDES)
 #define CLUTTER_DISABLE_DEPRECATION_WARNINGS 1
